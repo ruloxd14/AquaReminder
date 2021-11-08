@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AquaReminder</string>
+    <string name="registro">Registro</string>
+    <string name="inicio">Iniciar Sesion</string>
+    <string name="correo">Correo</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="registrarse">Registrase</string>
+    <string name="Olvidar">Olvidé mi contraseña</string>
+    <string name="notienes">No tienes una cuenta?</string>
+    <string name="consumo">Consumo de agua</string>
+    <string name="historial">Historial</string>
+    <string name="perfil">Perfil</string>
+    <string name="consumoagua">Consumo de agua de hoy</string>
+    <string name="descriphistorial">Esta es una grafica en la cual demuestra su consumo de agua</string>
+    <string name="config">Configuraciones</string>
+    <string name="uni">Unidades</string>
+    <string name="idio">idioma</string>
+    <string name="dato">Datos Personales</string>
+    <string name="Reci">Recipiente</string>
+    <string name="cerrar">Cerrar Sesión</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Historial</string>
+    <string name="title_notifications">Perfil</string>
+</resources>
