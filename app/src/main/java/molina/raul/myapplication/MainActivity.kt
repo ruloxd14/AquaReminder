@@ -1,4 +1,4 @@
-package molina.raul.aquareminder
+package molina.raul.myapplication
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -7,7 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import molina.raul.aquareminder.databinding.ActivityMainBinding
+import molina.raul.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

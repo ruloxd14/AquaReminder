@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bluemid"
+    android:orientation="vertical"
+    tools:context=".RecipienteActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Recipiente"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:backgroundTint="@color/bluelow"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vasonormal"/>
+
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:backgroundTint="@color/bluelow"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vasogrande"/>
+            </TableRow>
+
+            <TableRow>
+
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:backgroundTint="@color/bluelow"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/botella" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:backgroundTint="@color/bluelow"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/botellapersonal" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

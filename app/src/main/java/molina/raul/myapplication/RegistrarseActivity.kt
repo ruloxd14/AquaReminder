@@ -1,11 +1,11 @@
-package molina.raul.aquareminder
+package molina.raul.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class RegistraseActivity : AppCompatActivity() {
+class RegistrarseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_registrase)
+        setContentView(R.layout.activity_registrarse)
     }
 }

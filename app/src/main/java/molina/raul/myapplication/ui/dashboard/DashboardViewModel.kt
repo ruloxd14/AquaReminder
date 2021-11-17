@@ -1,4 +1,4 @@
-package molina.raul.aquareminder.ui.dashboard
+package molina.raul.myapplication.ui.dashboard
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

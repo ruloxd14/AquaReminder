@@ -1,4 +1,4 @@
-package molina.raul.aquareminder
+package molina.raul.myapplication
 
 import org.junit.Test
 

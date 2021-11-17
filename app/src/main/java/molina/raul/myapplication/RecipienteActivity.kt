@@ -1,11 +1,11 @@
-package molina.raul.aquareminder
+package molina.raul.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class InicioSesionActivity : AppCompatActivity() {
+class RecipienteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_inicio_sesion)
+        setContentView(R.layout.activity_recipiente)
     }
 }
