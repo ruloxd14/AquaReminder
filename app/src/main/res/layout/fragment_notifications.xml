@@ -18,6 +18,7 @@
         android:textSize="20dp"/>
 
     <ImageView
+        android:id="@+id/imagenperfil"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
@@ -25,6 +26,7 @@
         android:src="@drawable/fedora"/>
 
     <TextView
+        android:id="@+id/tv_nombreperfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nombre Apellido"
@@ -40,36 +42,42 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/btn_configuraciones"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
             android:text="@string/config"
             android:layout_marginStart="30dp"
             android:backgroundTint="@color/bluelow"/>
         <Button
+            android:id="@+id/btn_unidades"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
             android:text="@string/uni"
             android:layout_marginStart="30dp"
             android:backgroundTint="@color/bluelow"/>
         <Button
+            android:id="@+id/btn_idiomas"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
             android:text="@string/idio"
             android:layout_marginStart="30dp"
             android:backgroundTint="@color/bluelow"/>
         <Button
+            android:id="@+id/btn_datos_per"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
             android:text="@string/dato"
             android:layout_marginStart="30dp"
             android:backgroundTint="@color/bluelow"/>
         <Button
+            android:id="@+id/btn_recipientes"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
             android:text="@string/Reci"
             android:layout_marginStart="30dp"
             android:backgroundTint="@color/bluelow"/>
         <Button
+            android:id="@+id/btn_cerrar_sesion"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
             android:text="@string/cerrar"

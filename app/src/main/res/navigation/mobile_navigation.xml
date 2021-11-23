@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="molina.raul.myapplication.ui.home.HomeFragment"
+        android:name="molina.raul.aquareminder.ui.home.HomeFragment"
         android:label="@string/consumo"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="molina.raul.myapplication.ui.dashboard.DashboardFragment"
+        android:name="molina.raul.aquareminder.ui.dashboard.DashboardFragment"
         android:label="@string/historial"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="molina.raul.myapplication.ui.notifications.NotificationsFragment"
+        android:name="molina.raul.aquareminder.ui.notifications.NotificationsFragment"
         android:label="@string/perfil"
         tools:layout="@layout/fragment_notifications" />
 </navigation>
